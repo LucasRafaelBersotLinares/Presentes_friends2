@@ -1,45 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Céu de Memórias</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Céu de Memórias ✨</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<section id="intro" class="intro">
-  <div class="card">
-    <h1>Céu de Memórias ✨</h1>
-    <p>Cada estrela deste céu guarda uma lembrança especial.</p>
-    <button id="startBtn">Começar a explorar</button>
-  </div>
-</section>
 
-<section id="sky" class="hidden">
-  <div class="topbar">
-    <span id="counter"></span>
-    <button id="constBtn">Constelações</button>
-  </div>
+    <!-- Lua -->
+    <div class="moon"></div>
 
-  <canvas id="canvas"></canvas>
-  <div id="stars"></div>
+    <!-- Tela inicial -->
+    <section id="intro" class="intro">
 
-  <div class="music">
-    <audio id="bgm" loop></audio>
-    <button id="musicBtn">♫ Música</button>
-  </div>
-</section>
+        <div class="card">
 
-<div id="modal" class="modal hidden">
-  <div class="modal-card">
-    <button id="closeBtn">✕</button>
-    <img id="mImg" alt="memória">
-    <h2 id="mTitle"></h2>
-    <small id="mDate"></small>
-    <p id="mDesc"></p>
-  </div>
-</div>
+            <h1>✨ Céu de Memórias ✨</h1>
 
-<script src="js/script.js"></script>
+            <p>
+                Cada estrela deste céu guarda uma lembrança especial.
+            </p>
+
+            <button id="startBtn">
+                Começar a explorar
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Céu -->
+    <section id="sky" class="hidden">
+
+        <div class="topbar">
+
+            <span id="counter"></span>
+
+            <button id="constBtn">
+                Mostrar Constelações
+            </button>
+
+        </div>
+
+        <!-- Canvas das constelações -->
+        <canvas id="canvas"></canvas>
+
+        <!-- Estrelas clicáveis -->
+        <div id="stars"></div>
+
+        <!-- Música -->
+        <div class="music">
+
+            <audio
+                id="bgm"
+                src="audio/musica.mp3"
+                loop>
+            </audio>
+
+            <button id="musicBtn">
+                🎵 Música
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Modal da memória -->
+    <div id="modal" class="modal hidden">
+
+        <div class="modal-card">
+
+            <button id="closeBtn">
+                ✖
+            </button>
+
+            <img
+                id="mImg"
+                src=""
+                alt="Memória">
+
+            <h2 id="mTitle"></h2>
+
+            <small id="mDate"></small>
+
+            <p id="mDesc"></p>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
