@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Céu de Memórias</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section id="intro" class="intro">
+  <div class="card">
+    <h1>Céu de Memórias ✨</h1>
+    <p>Cada estrela deste céu guarda uma lembrança especial.</p>
+    <button id="startBtn">Começar a explorar</button>
+  </div>
+</section>
+
+<section id="sky" class="hidden">
+  <div class="topbar">
+    <span id="counter"></span>
+    <button id="constBtn">Constelações</button>
+  </div>
+
+  <canvas id="canvas"></canvas>
+  <div id="stars"></div>
+
+  <div class="music">
+    <audio id="bgm" loop></audio>
+    <button id="musicBtn">♫ Música</button>
+  </div>
+</section>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-card">
+    <button id="closeBtn">✕</button>
+    <img id="mImg" alt="memória">
+    <h2 id="mTitle"></h2>
+    <small id="mDate"></small>
+    <p id="mDesc"></p>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

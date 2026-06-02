@@ -1,0 +1,15 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:radial-gradient(circle at top,#25104f,#0b0820,#02030b);color:#fff;height:100vh;overflow:hidden}
+.hidden{display:none!important}
+.intro{height:100vh;display:flex;justify-content:center;align-items:center}
+.card{background:rgba(255,255,255,.08);backdrop-filter:blur(10px);padding:30px;border-radius:20px;text-align:center}
+button{cursor:pointer;padding:10px 16px;border-radius:10px;border:none}
+#sky,#stars,#canvas{position:absolute;inset:0}
+.topbar{position:absolute;top:15px;left:15px;right:15px;display:flex;justify-content:space-between;z-index:2}
+.star{position:absolute;width:12px;height:12px;border-radius:50%;background:#fff;box-shadow:0 0 15px #fff}
+.star:hover{transform:scale(1.5)}
+.music{position:absolute;bottom:15px;right:15px;z-index:2}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center}
+.modal-card{width:min(90%,600px);background:#1c1c2e;padding:20px;border-radius:20px}
+.modal-card img{width:100%;border-radius:12px}
