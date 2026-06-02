@@ -61,8 +61,15 @@ counter.textContent =
   `${memories.length} memórias guardadas neste céu`;
 
 startBtn.addEventListener("click", () => {
-  intro.classList.add("hidden");
-  sky.classList.remove("hidden");
+
+    intro.classList.add("hidden");
+    sky.classList.remove("hidden");
+
+    bgm.play();
+
+    musicBtn.textContent =
+        "🔇 Desligar Música";
+
 });
 
 const starElements = [];
@@ -181,3 +188,26 @@ for (let i = 0; i < 250; i++) {
 
   document.body.appendChild(star);
 }
+
+const musicBtn = document.getElementById("musicBtn");
+const bgm = document.getElementById("bgm");
+
+musicBtn.addEventListener("click", () => {
+
+    if (bgm.paused) {
+
+        bgm.play();
+
+        musicBtn.textContent =
+            "🔇 Desligar Música";
+
+    } else {
+
+        bgm.pause();
+
+        musicBtn.textContent =
+            "🎵 Tocar Música";
+
+    }
+
+});
