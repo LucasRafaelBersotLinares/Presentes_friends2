@@ -31,7 +31,7 @@ const memories = [
   },
   {
       title: "Memória 6",
-      image: "../images/memoria_6.jpeg",
+      image: "./images/memoria_6.jpeg",
       date: "",
       description: "Uma pausa pra respirar, você nunca me desgastou...como pode uma memoria ser capaz de aquecer meu coração?"
   },
