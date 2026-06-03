@@ -1,34 +1,190 @@
 const memories = [
   {
-      title: "Memória 1",
-      image: "https://picsum.photos/800/500?1",
-      date: "2026",
-      description: "Troque por uma memória real."
+      title: "Memória",
+      image: "../images/memoria_1.jpeg",
+      date: "",
+      description: ""
   },
   {
       title: "Memória 2",
-      image: "https://picsum.photos/800/500?2",
-      date: "2026",
-      description: "Troque por uma memória real."
+      image: "../images/memoria_2.jpeg",
+      date: "",
+      description: ""
   },
   {
       title: "Memória 3",
-      image: "https://picsum.photos/800/500?3",
-      date: "2026",
-      description: "Troque por uma memória real."
+      image: "../images/memoria_3.jpeg",
+      date: "",
+      description: ""
   },
   {
       title: "Memória 4",
-      image: "https://picsum.photos/800/500?4",
-      date: "2026",
-      description: "Troque por uma memória real."
+      image: "../images/memoria_4.jpeg",
+      date: "",
+      description: ""
   },
   {
       title: "Memória 5",
-      image: "https://picsum.photos/800/500?5",
+      image: "../images/memoria_5.jpeg",
+      date: "",
+      description: "Irmãos por acaso, amigos por opção."
+  },
+  {
+      title: "Memória 6",
+      image: "../images/memoria_6.jpeg",
+      date: "",
+      description: "Uma pausa pra respirar, você nunca me desgastou...como pode uma memoria ser capaz de aquecer meu coração?"
+  },
+  {
+      title: "Memória 7",
+      image: "../images/memoria_7.jpeg",
+      date: "",
+      description: "Um recorte de uns dos melhores dias da minha vida, você me dá forças pra enfrentar o futuro mesmo com medo, lembrar de você já é o suficiente..."
+  },
+  {
+      title: "Memória 8",
+      image: "../images/memoria_8.jpeg",
+      date: "",
+      description: "Com você eu enxergo a vida com lentes mais gentis"
+  },
+  {
+      title: "Memória 9",
+      image: "../images/memoria_9.jpeg",
+      date: "",
+      description: "Anita lindinha feliz aniversário!!! Viva e aproveite cada momento do seu dia e me guarde um bolinho kakkakakka."
+  },
+  {
+      title: "Memória 10",
+      image: "../images/memoria_10.jpeg",
+      date: "",
+      description: "Nesquik sou muito grata de passar o meu ensino médio com você, obrigada por sempre estar lá (raramente faltou), e obrigada por zoar o Lucas com a gente a qualquer momento (não deixa ele saber pq ele que tá montando tudo isso hihi)."
+  },
+  {
+      title: "Memória 11",
+      image: "../images/memoria_11.jpeg",
+      date: "",
+      description: "Enfim, gosto e admiro demais a sua pessoa e espero te levar pra vida toda com a sua risada inédita e seus games que nunca tem fim, te amo gatinha você merece o mundo todo💋💋."
+  },
+  {
+      title: "Memória 12",
+      image: "../images/memoria_12.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 13",
+      image: "../images/memoria_13.jpeg",
       date: "2026",
-      description: "Troque por uma memória real."
-  }
+      description: ""
+  },
+  {
+      title: "Memória 14",
+      image: "../images/memoria_14.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 15",
+      image: "../images/memoria_15.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 16",
+      image: "../images/memoria_16.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 17",
+      image: "../images/memoria_17.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 18",
+      image: "../images/memoria_18.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 19",
+      image: "../images/memoria_19.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 20",
+      image: "../images/memoria_20.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 21",
+      image: "../images/memoria_21.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 22",
+      image: "../images/memoria_22.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 23",
+      image: "../images/memoria_23.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 24",
+      image: "../images/memoria_24.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 25",
+      image: "../images/memoria_25.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 26",
+      image: "../images/memoria_26.jpeg",
+      date: "",
+      description: "Para de rir dos cadeirantes, coisa feia"
+  },
+  {
+      title: "Memória 27",
+      image: "../images/memoria_27.jpeg",
+      date: "",
+      description: "MELHOR TROTE SIM!!"
+  },
+  {
+      title: "Memória 28",
+      image: "../images/memoria_28.jpeg",
+      date: "",
+      description: "Tutu e Kaiser"
+  },
+  {
+      title: "Memória 29",
+      image: "../images/memoria_29.jpeg",
+      date: "",
+      description: "Nesse dia eu pude ter certeza de que para sempre vou ter uma maluca comigo"
+  },
+  {
+      title: "Memória 30",
+      image: "../images/memoria_30.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 31",
+      image: "../images/memoria_31.jpeg",
+      date: "",
+      description: ""
+  },
 ];
 
 const intro = document.getElementById("intro");

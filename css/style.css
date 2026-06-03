@@ -116,17 +116,34 @@ button:hover{
 }
 
 .modal-card{
-    width:min(90%,600px);
+    width:min(90%,700px);
+    max-height:90vh;
+
+    overflow-y:auto;
+
     background:rgba(28,28,46,.85);
+
     backdrop-filter:blur(15px);
+
     padding:20px;
+
     border-radius:20px;
-    box-shadow:0 0 30px rgba(255,255,255,.15);
 }
 
 .modal-card img{
+
     width:100%;
-    border-radius:12px;
+
+    aspect-ratio:16/9;
+
+    object-fit:cover;
+
+    border-radius:16px;
+
+    display:block;
+
+    box-shadow:
+        0 0 20px rgba(255,255,255,.15);
 }
 
 .moon{
