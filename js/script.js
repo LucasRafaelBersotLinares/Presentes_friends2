@@ -196,7 +196,25 @@ const memories = [
       image: "./images/memoria_33.jpeg",
       date: "",
       description: "Sua indicação foi cirurgica, amei acompanhar esse anime e compartilhar contigo, quando lançar o resto temos que ver, e pra representar essa memoria nada melhor que a print mais zika do filme"
-  }
+  },
+  {
+      title: "Memória 34",
+      image: "./images/memoria_34.jpeg",
+      date: "",
+      description: "Definitivamente o mlhr grupo de tdss🫶"
+  },
+  {
+      title: "Memória 35",
+      image: "./images/memoria_35.jpeg",
+      date: "",
+      description: "Sempre arrasando nas apresentações, todos ficavam no chinelo 🩴"
+  },
+  {
+      title: "Memória 36",
+      image: "./images/memoria_36.jpeg",
+      date: "",
+      description: "Eu dei meu melhorrr anaaaa akkakkakak, sorry pelo delineado torto"
+  },
 ];
 
 const intro = document.getElementById("intro");
