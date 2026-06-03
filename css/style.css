@@ -65,6 +65,9 @@ button:hover{
     position:absolute;
     inset:0;
 }
+#mTitle{
+    display:none
+}
 
 .topbar{
     position:absolute;

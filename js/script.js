@@ -117,37 +117,37 @@ const memories = [
       title: "Memória 20",
       image: "../images/memoria_20.jpg",
       date: "",
-      description: ""
+      description: "Deitar o nootbook para ler simplesmente genial (mas dava uma dor na minha alma KKKKK)"
   },
   {
       title: "Memória 21",
       image: "../images/memoria_21.jpg",
       date: "",
-      description: ""
+      description: "Muito bom a Ketlyn no fundo olhando pro nada kkkk, esse dia foi muito foda."
   },
   {
       title: "Memória 22",
       image: "../images/memoria_22.jpg",
       date: "",
-      description: ""
+      description: "Achou que eu não ia guardar essas fotos >= ) tenho todos os ângulos dessa sessão de fotos rsrsrs"
   },
   {
       title: "Memória 23",
       image: "../images/memoria_23.jpg",
       date: "",
-      description: ""
+      description: "Dispensa comentários, descobri a existência dessa foto um tempo depois ksksks"
   },
   {
       title: "Memória 24",
       image: "../images/memoria_24.jpg",
       date: "",
-      description: ""
+      description: "Simplesmente o melhor grupo!!! (queria muito achar a foto da peste negra... =[ )"
   },
   {
       title: "Memória 25",
       image: "../images/memoria_25.jpg",
       date: "",
-      description: ""
+      description: "TOP elementos B) acho muito foda o sapato joaninha kskskks."
   },
   {
       title: "Memória 26",
@@ -177,25 +177,25 @@ const memories = [
       title: "Memória 30",
       image: "../images/memoria_30.png",
       date: "",
-      description: ""
+      description: "O dia que abrimos nosso restaurante de sushi com ingredientes duvidosos.... Mas esse foi nossa melhor venda kkk"
   },
   {
       title: "Memória 31",
       image: "../images/memoria_31.png",
       date: "",
-      description: ""
+      description: "Acho essa foto muito foda, melhor professora de genshin disparada (Iremos renovar essa foto quando pegar minha raiden!)"
   },
   {
       title: "Memória 32",
       image: "../images/memoria_32.jpeg",
       date: "",
-      description: ""
+      description: "Arruma esse vagão!!! skksks"
   },
   {
       title: "Memória 33",
       image: "../images/memoria_33.jpeg",
       date: "",
-      description: ""
+      description: "Sua indicação foi cirurgica, amei acompanhar esse anime e compartilhar contigo, quando lançar o resto temos que ver, e pra representar essa memoria nada melhor que a print mais zika do filme"
   }
 ];
 
@@ -257,7 +257,6 @@ memories.forEach((memory) => {
   star.addEventListener("click", () => {
 
       mImg.src = memory.image;
-      mTitle.textContent = memory.title;
       mDate.textContent = memory.date;
       mDesc.textContent = memory.description;
 
