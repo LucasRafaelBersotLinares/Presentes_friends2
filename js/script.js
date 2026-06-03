@@ -214,7 +214,7 @@ const memories = [
       image: "./images/memoria_36.jpeg",
       date: "",
       description: "Eu dei meu melhorrr anaaaa akkakkakak, sorry pelo delineado torto"
-  },
+  }
 ];
 
 const intro = document.getElementById("intro");
