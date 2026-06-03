@@ -214,6 +214,12 @@ const memories = [
       image: "./images/memoria_36.jpeg",
       date: "",
       description: "Eu dei meu melhorrr anaaaa akkakkakak, sorry pelo delineado torto"
+  },
+  {
+      title: "Memória 37",
+      image: "./images/memoria_37.jpeg",
+      date: "",
+      description: "BY FELPS"
   }
 ];
 
