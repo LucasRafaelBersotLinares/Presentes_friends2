@@ -220,6 +220,12 @@ const memories = [
       image: "./images/memoria_37.jpeg",
       date: "",
       description: "BY FELPS"
+  },
+  {
+      title: "Memória 38",
+      image: "./images/memoria_38.jpeg",
+      date: "VAI VIR INEXISTÊNCIA!, VAI VIR INEXISTÊNCIA!, VAR VIR INEXISTÊNCIA!",
+      description: "BY FELPS"
   }
 ];
 
