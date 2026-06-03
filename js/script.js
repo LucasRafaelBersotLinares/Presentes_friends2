@@ -74,7 +74,7 @@ const memories = [
   {
       title: "Memória 13",
       image: "../images/memoria_13.jpeg",
-      date: "2026",
+      date: "",
       description: ""
   },
   {
@@ -115,37 +115,37 @@ const memories = [
   },
   {
       title: "Memória 20",
-      image: "../images/memoria_20.jpeg",
+      image: "../images/memoria_20.jpg",
       date: "",
       description: ""
   },
   {
       title: "Memória 21",
-      image: "../images/memoria_21.jpeg",
+      image: "../images/memoria_21.jpg",
       date: "",
       description: ""
   },
   {
       title: "Memória 22",
-      image: "../images/memoria_22.jpeg",
+      image: "../images/memoria_22.jpg",
       date: "",
       description: ""
   },
   {
       title: "Memória 23",
-      image: "../images/memoria_23.jpeg",
+      image: "../images/memoria_23.jpg",
       date: "",
       description: ""
   },
   {
       title: "Memória 24",
-      image: "../images/memoria_24.jpeg",
+      image: "../images/memoria_24.jpg",
       date: "",
       description: ""
   },
   {
       title: "Memória 25",
-      image: "../images/memoria_25.jpeg",
+      image: "../images/memoria_25.jpg",
       date: "",
       description: ""
   },
@@ -175,16 +175,28 @@ const memories = [
   },
   {
       title: "Memória 30",
-      image: "../images/memoria_30.jpeg",
+      image: "../images/memoria_30.png",
       date: "",
       description: ""
   },
   {
       title: "Memória 31",
-      image: "../images/memoria_31.jpeg",
+      image: "../images/memoria_31.png",
       date: "",
       description: ""
   },
+  {
+      title: "Memória 32",
+      image: "../images/memoria_32.jpeg",
+      date: "",
+      description: ""
+  },
+  {
+      title: "Memória 33",
+      image: "../images/memoria_33.jpeg",
+      date: "",
+      description: ""
+  }
 ];
 
 const intro = document.getElementById("intro");
@@ -345,25 +357,24 @@ for (let i = 0; i < 250; i++) {
   document.body.appendChild(star);
 }
 
-const musicBtn = document.getElementById("musicBtn");
 const bgm = document.getElementById("bgm");
 
-musicBtn.addEventListener("click", () => {
+const musicSelector =
+    document.getElementById("musicSelector");
 
-    if (bgm.paused) {
+musicSelector.addEventListener(
+    "change",
+    () => {
 
-        bgm.play();
+        const tocando =
+            !bgm.paused;
 
-        musicBtn.textContent =
-            "🔇 Desligar Música";
+        bgm.src =
+            musicSelector.value;
 
-    } else {
-
-        bgm.pause();
-
-        musicBtn.textContent =
-            "🎵 Tocar Música";
+        if (tocando) {
+            bgm.play();
+        }
 
     }
-
-});
+);

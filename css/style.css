@@ -246,3 +246,21 @@ button:hover{
         text-align:center;
     }
 }
+
+.music select{
+    padding:10px;
+    border:none;
+    border-radius:10px;
+
+    background:rgba(255,255,255,.15);
+
+    color:white;
+
+    backdrop-filter:blur(10px);
+
+    cursor:pointer;
+}
+
+.music select option{
+    color:black;
+}
